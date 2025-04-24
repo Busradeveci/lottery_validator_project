@@ -1,33 +1,31 @@
-Bu Python betiği, `lottery_numbers.csv` dosyasındaki hatalı biçimlendirilmiş satırları filtreler ve yalnızca geçerli olanları `correct_numbers.csv` dosyasına kaydeder. 
+# Lottery Validator Project
+This Python script filters out incorrectly formatted lines from the `lottery_numbers.csv` file and saves only the valid ones to the `correct_numbers.csv` file.
 
-**Özellikler:**
+## Features
+- Checks each line in the `lottery_numbers.csv` file.
+- Filters out incorrectly formatted lines.
+- Writes valid lines to the `correct_numbers.csv` file.
 
-- `lottery_numbers.csv` dosyasındaki her satırı kontrol eder.
-- Geçerli biçimde olmayan satırları filtreler.
-- Geçerli satırları `correct_numbers.csv` dosyasına yazar.
+## Technologies Used
+- Python
 
-**Kullanılan Teknolojiler:**
-
-- Python
-
-**Kurulum ve Kullanım:**
-
-1. Depoyu klonlayın:
-
+## Installation and Usage
+1. Clone the repository:
    ```bash
    git clone https://github.com/Busradeveci/lottery_validator_project.git
    ```
 
-2. Gerekli bağımlılıkları yükleyin (varsa):
-
+2. Install required dependencies (if any):
    ```bash
    pip install -r requirements.txt
    ```
 
-3. `lottery_validator.py` dosyasını çalıştırın:
-
+3. Run the `lottery_validator.py` script:
    ```bash
    python lottery_validator.py
    ```
 
-4. `correct_numbers.csv` dosyasını kontrol ederek geçerli satırları görüntüleyebilirsiniz.
+4. Check the `correct_numbers.csv` file to view the valid lines.
+
+## Contributing
+To contribute, fork the repository and submit a pull request with your changes.
